@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outvoicing - Smart Invoicing for SA Businesses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#1E3A8A', // A deep blue
+              'brand-secondary': '#3B82F6', // A brighter blue
+              'brand-accent': '#F59E0B', // A warm amber/gold
+              'status-paid': '#10B981', // Green-500
+              'status-pending': '#F59E0B', // Amber-500
+              'status-overdue': '#EF4444', // Red-500
+              'status-draft': '#6B7280', // Gray-500
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50">
+<div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

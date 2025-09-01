@@ -1,0 +1,5 @@
+{
+  "name": "Outvoicing",
+  "description": "An invoicing and data storage web app for South African businesses, featuring AI-powered document processing and invoice management.",
+  "requestFramePermissions": []
+}
